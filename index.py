@@ -1,7 +1,3 @@
-mydict = {
-    "brand":"lambo",
-    "model":"aventador",
-    "year":2016
- 
-}
-print(mydict)
+list1 = ["lambo","buggati","tesla"]
+x = [x for x in list1 if "b" in x]
+print(x)
