@@ -1,2 +1,3 @@
-x = lambda a, b : a * b
-print(x(8, 8))
+import platform
+x = platform.system()
+print(x)
